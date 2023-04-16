@@ -31,7 +31,7 @@ namespace DotNetCoreSqlDb.Controllers
             catch (Exception e)
             {
 
-                return View(todos);
+                return View(e.ToString());
             }
 
             return View(todos);
